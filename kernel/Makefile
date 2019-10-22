@@ -1,4 +1,4 @@
-LINUX_SRC_PATH = /lib/x86_64-linux-gnu #/lib/modules/$(shell uname -r)/build
+LINUX_SRC_PATH = /lib/modules/$(shell uname -r)/build
 
 #
 ## If building against OFED, include the OFED headers first.
